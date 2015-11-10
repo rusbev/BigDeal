@@ -26,7 +26,7 @@ def main():
         # print(deck)
 
         # Loops to deal to table
-        for j in range(0, 4):
+        for j in range(4):
             card = deck.pop(0)
 
             print(PLAYERS[j], "got the", RANKS[card % CARDS_PER_HAND], "of", SUITS[card // CARDS_PER_HAND])
